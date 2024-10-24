@@ -1,0 +1,31 @@
+/* src/components/CitySelector.css */
+
+.city-selector {
+    margin: 20px 0;
+}
+
+.city-selector label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.city-dropdown {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.city-dropdown:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.city-dropdown option {
+    padding: 10px; /* This will not affect dropdown options in most browsers */
+}
+
+/* For better visibility in some browsers, you can add custom styles */
