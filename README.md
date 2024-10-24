@@ -14,7 +14,7 @@ Node.js and NPM Install
 
 ## SetUp
 1. Clone the Repository
-   - `git clone `
+   - `git clone https://github.com/vivek979393/Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates.git `
 2. .env setup
    - `MONGODB_URI=''`
    - `PORT=5000`
